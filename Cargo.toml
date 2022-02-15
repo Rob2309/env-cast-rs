@@ -1,0 +1,20 @@
+[package]
+name = "env-cast"
+version = "1.0.0"
+edition = "2021"
+authors = ["Robin Quint"]
+description = "Macro to parse an environment variable to a numeric type at compile time"
+repository = "https://github.com/rob2309/env-cast-rs"
+license = "MIT"
+keywords = ["env", "cast", "parse", "macro", "compile"]
+categories = ["parsing", "config"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.36"
+syn = "1.0.86"
+quote = "1.0.15"
