@@ -8,6 +8,7 @@ repository = "https://github.com/rob2309/env-cast-rs"
 license = "MIT"
 keywords = ["env", "cast", "parse", "macro", "compile"]
 categories = ["parsing", "config"]
+exclude = [".github"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
